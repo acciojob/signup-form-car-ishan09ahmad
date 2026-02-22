@@ -21,9 +21,14 @@
         <input type="radio" id="gender_f" name="gender" required>
         <label for="gender_f">Female</label>
 
-	<label for="cars">Car Brands</label>
-		<input type="select" required name="cars" id="cars" placeholder="--Please choose an option--" >
-
+	     <label for="cars">Car Brands</label>
+        <select id="cars" name="cars" required >
+            <option value="">--Please choose an option--</option>
+            <option value="toyota">Toyota</option>
+            <option value="bmw">BMW</option>
+            <option value="audi">Audi</option>
+            <option value="mercedes">Mercedes</option>
+        </select>
 		
 <label for="age">Age</label>
 		<input type="number" required id="age" placeholder="Age" >
